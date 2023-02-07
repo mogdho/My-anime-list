@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Bangers', cursive;
+}
+
+.nav-bar{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* anime 1 */
+.bg-edit{
+    width: 100vw;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-img1{
+    background-image: url(./images/Fullmetal\ alchemist.jpg);
+}
+
+.heading{
+    color: white;
+    padding: 70px 20px;
+}
+
+.details{
+    margin-bottom: 50px;
+}
+
+.details h2{
+    text-align: center;
+    color: orangered;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+.details p{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.details a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: orangered;
+    padding: 10px 50px;
+    border: 3px solid black;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+/* anime 1 */
+
+/* anime 2 */
+.bg-img2{
+    background-image: url(./images/Bleach.jpg);
+}
+.bleach{
+    color: #444 !important;
+}
+
+.bleach-a{
+    background-color: #444 !important ;
+}
+/* anime 2 */
+
+/* anime 3 */
+.bg-img3{
+    background-image: url(./images/Hunter.jpg);
+}
+.hunter{
+    color: rgb(2, 112, 255) !important;
+}
+
+.hunter-a{
+   background-color: rgb(2, 112, 255) !important;
+}
+/* anime 3 */
+
+/* anime 4 */
+.bg-img4{
+    background-image: url(./images/Kaguya.png);
+}
+.kaguya{
+    color: pink !important;
+}
+
+.kaguya-a{
+   background-color: pink !important;
+}
+/* anime 4 */
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.7rem;
+}
